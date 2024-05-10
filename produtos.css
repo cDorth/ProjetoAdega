@@ -1,0 +1,63 @@
+.produto{
+    width: 40%;
+}
+.cabeca{
+    margin: 0%;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    color: white;
+}
+.cabeca2{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.palavraLogo{
+    margin-left: 2%;
+    font-size: 40px;
+    margin-top: 0.5%;
+}
+.logoEsquerda{
+    padding-left:65% ;
+} 
+.palavraLogin{
+    vertical-align: middle;
+    font-size: 40px;
+    border: none;
+}
+.imglogin{
+    width: 3%;
+     vertical-align: top;
+      margin-bottom: 0.5%;
+       margin-top: 0.5%;
+}
+a {
+
+    color: white;
+    }
+    a:hover{
+    color:antiquewhite
+    
+    }
+    #logo{
+        margin-top: 0%;
+        margin-left: 80%;
+    }
+    .esquerda{
+        vertical-align: top;
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        margin: 1%;
+     }
+     .direita{
+        width: 45%;
+        height: 100%;
+        display: inline-block;
+        margin: 1%;
+        vertical-align: top;
+    }
+    .palavra{
+        padding-bottom: 0.8%;
+        font-size: 40px;
+    }   

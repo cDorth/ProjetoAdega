@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>REGISTRO</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+ 
+</head>
+<body>
+
+
+    <header class="cabeca"> 
+&nbsp;
+      <div class="cabeca2">
+
+       <span class="palavraLogo"> ADEGA'S FEHLOS</span> <span class="logoEsquerda">  
+         <a href="Adega.html"> <img class="imglogin" src="imagens/do-utilizador.png" />
+            <span class="palavraLogin"> Login</span></a></span>
+
+          </div>
+          &nbsp;
+          </header>
+   
+
+
+        
+            <center>  <h1> Conheça nossos produtos </h1> </center>
+         <div class="margemProduto">
+        
+            <div>
+                <center>
+                <table class="tabela">
+                    <tr>
+                        <td> <a href="barros.html"> <img class="produto" src="imagens/barros1990.jpg"></td>
+                        <td class="espaco"><h3>Vinho Tinto Barros 1990</h3></td></a>
+                        <td><a href="champagne.html"> <img class="produto" src="imagens/champagne2000.png"> </td>
+                        <td class="espaco"><h3>Champagne Veuvo do Vernay</h3></td></a>
+                        
+                    </tr>
+                    <tr>
+                        <td class="preco">R$500</td>
+                        <td class="espaco"></td>
+                        <td class="preco">R$400</td>
+
+                    </tr>
+                    <tr class="espaco2">  </tr>
+                  <tr class="espaco2"> </tr>
+                    <tr>
+                      <td> <a href="heiniken.html"><img class="produto" src="imagens/heineken.jpg"></td>
+                        <td class="espaco"><h3> HEINEKEN</h3></td></a>
+                        <td><a href="skol.html"><img class="produto" src="imagens/skol.png"></td>
+                        <td class="espaco"><h3> SKOL </h3></td></a>
+
+                    </tr>
+                    <tr>
+                        <td class="preco">R$200</td>
+                        <td class="espaco"></td>
+                        <td class="preco">R$100</td>
+
+                    </tr>
+                    <tr>
+                      <td><a href="corote.html"> <img class="produto" src="imagens/corote.png"></td>
+                        <td ><h3>COROTE CANELINHA</h3> </td></a>
+                        <td><a href="whisky.html"><img class="produto" src="imagens/whiskyJack.png"></td>
+                        <td ><h3>whisky jack daniels</h3></td></a>
+                    </tr>
+                    <tr>
+                 
+                      <td class="preco">R$300</td>
+                      <td class="espaco"></td>
+                      <td class="preco">R$50</td>
+
+                    </tr>
+                </table>
+            </center>
+            </div>
+            
+         </div>
+
+
+
+    <footer style="background-color: blueviolet;"><h3>Todos os Direitos reservados </h3>  <br/><br/> 
+    <span style="float: right; padding-right: 5%;">Facebook</span><br/><br/> 
+    <span style="float: right; padding-right: 5%;">Instagram</span><br/><br/> 
+    <span style="float: right; padding-right: 5%;">Whatszaap</span><br/><br/> 
+    </footer>
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script type="text/javascript">
+   
+          
+    swal({
+        title: "Você tem mais de 18 anos?",
+        text: "Seja sincero",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+  buttons: {
+    cancel: "Não",
+      text: "Sim",
+  },
+
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+
+        } else {
+
+
+          window.location.href = "negado.html";
+       
+        }
+      });
+  
+      </script>
+
+
+
+    </body>
+
+
+
+
+    </html>
